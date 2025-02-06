@@ -18,7 +18,7 @@ This project simulates a **concurrent restaurant order processing system** using
 ---
 ## Project Structure
 ```
-restaurant-order-system/
+go-concurrent-order-system/
 ├── dispatcher.go        # Routes orders to the appropriate zone
 ├── displayManager.go    # Handles the display of completed orders
 ├── go.mod               # Module file for Go dependencies
