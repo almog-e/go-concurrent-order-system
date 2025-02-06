@@ -1,0 +1,14 @@
+RESTAURANT 1
+Orders: 3
+Queue Size: 2
+
+RESTAURANT 2
+Orders: 3
+Queue Size: 1
+
+
+PizzaZone Workers: 1
+BurgerZone Workers: 5
+SushiZone Workers: 2
+
+Zone Queue Size: 10
