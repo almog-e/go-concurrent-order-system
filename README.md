@@ -153,7 +153,3 @@ Bye!
 
 Process finished with the exit code 0
 ```
----
-
-## License
-This project is licensed under the MIT License.
