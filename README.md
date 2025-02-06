@@ -14,9 +14,10 @@ This project simulates a **concurrent restaurant order processing system** using
 - **Display Manager:** Monitors completed orders and prints them in a readable format.
 - **Configurable:** The system reads its configuration from an easy-to-edit `config.txt` file.
 
----
 
+---
 ## Project Structure
+```
 restaurant-order-system/
 ├── dispatcher.go        # Routes orders to the appropriate zone
 ├── displayManager.go    # Handles the display of completed orders
@@ -25,6 +26,7 @@ restaurant-order-system/
 ├── producers.go         # Generates restaurant orders
 ├── zoneManagers.go      # Manages zone-specific order processing
 └── config.txt           # Configuration file for restaurants and zones
+```
 
 ---
 
