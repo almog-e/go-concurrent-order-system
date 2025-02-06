@@ -66,7 +66,7 @@ Zone Queue Size: 10
 
 ## Running the Project
 1. **Clone the repository:**
-   git clone https://github.com/your-username/restaurant-order-system.git
+   git clone https://github.com/almog-e/go-concurrent-order-system.git
    cd restaurant-order-system
 
 2. **Ensure Go is installed:**
