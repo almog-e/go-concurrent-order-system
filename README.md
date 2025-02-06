@@ -103,19 +103,56 @@ To stop the program gracefully:
 
 ## Example Output
 Here’s what the output might look like in the terminal:
-
+```
 Display Manager started
-PizzaZone started
-BurgerZone started
-SushiZone started
 Dispatcher started
+BurgerZone started
+PizzaZone started
+Restaurant 2 started
+Restaurant 2: Sushi 0
+Restaurant 1 started
 Restaurant 1: Pizza 0
+SushiZone started
+Restaurant 1: Sushi 0
+Restaurant 2: Burger 0
 Restaurant 1: Burger 0
+Restaurant 2: Sushi 1
 PizzaZone: Processing Restaurant 1: Pizza 0
+Restaurant 1 completed all orders.
+SushiZone: Processing Restaurant 2: Sushi 0
+PizzaZone: Done Restaurant 1: Pizza 0
+Manager Display: PizzaZone Restaurant 1: Pizza 0
+SushiZone: Processing Restaurant 1: Sushi 0
+SushiZone: Done Restaurant 2: Sushi 0
+Manager Display: SushiZone Restaurant 2: Sushi 0
+BurgerZone: Processing Restaurant 2: Burger 0
+SushiZone: Done Restaurant 1: Sushi 0
+Manager Display: SushiZone Restaurant 1: Sushi 0
 BurgerZone: Processing Restaurant 1: Burger 0
-Manager Display: PizzaZone processed order Restaurant 1: Pizza 0
-Manager Display: BurgerZone processed order Restaurant 1: Burger 0
+Restaurant 2 completed all orders.
+BurgerZone: Done Restaurant 2: Burger 0
+Manager Display: BurgerZone Restaurant 2: Burger 0
+Dispatcher: Producer 2 is done.
+Dispatcher: Producer 1 is done.
+Dispatcher: All producers are done, exiting.
+PizzaZone: All orders processed, exiting.
+SushiZone: Processing Restaurant 2: Sushi 1
+BurgerZone: Done Restaurant 1: Burger 0
+BurgerZone: All orders processed, exiting.
+Manager Display: BurgerZone Restaurant 1: Burger 0
+SushiZone: Done Restaurant 2: Sushi 1
+SushiZone: All orders processed, exiting.
+Main: All work completed.
+Manager Display: SushiZone Restaurant 2: Sushi 1
+Display Manager stopped
+Shutting down...
+3
+2
+1
+Bye!
 
+Process finished with the exit code 0
+```
 ---
 
 ## License
