@@ -66,15 +66,18 @@ Zone Queue Size: 10
 
 ## Running the Project
 1. **Clone the repository:**
+```
    git clone https://github.com/almog-e/go-concurrent-order-system.git
    cd restaurant-order-system
-
+```
 2. **Ensure Go is installed:**
+```
    go version
-
+```
 3. **Run the program:**
-   go run .
-
+```
+   go run 
+```
 4. **View the output:** The orders being processed and completed will be printed to the terminal.
 
 ---
