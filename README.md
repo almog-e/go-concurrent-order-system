@@ -41,7 +41,7 @@ go-concurrent-order-system/
 
 ## Configuration (config.txt)
 Define the configuration for the system in the `config.txt` file:
-
+```
 RESTAURANT 1
 Orders: 10
 Queue Size: 5
@@ -54,7 +54,7 @@ PizzaZone Workers: 3
 BurgerZone Workers: 2
 SushiZone Workers: 1
 Zone Queue Size: 10
-
+```
 **Explanation:**
 - **RESTAURANT:** Defines the restaurant ID and settings for each restaurant.
 - **Orders:** Number of orders to generate.
